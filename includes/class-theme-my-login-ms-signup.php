@@ -72,8 +72,8 @@ class Theme_My_Login_MS_Signup extends Theme_My_Login_Abstract {
 		}
 
 		if ( ! is_main_site() ) {
-			//wp_redirect( network_home_url( 'wp-signup.php' ) );
-			//exit;
+			wp_redirect( network_home_url( 'wp-signup.php' ) );
+			exit;
 		}
 	}
 
