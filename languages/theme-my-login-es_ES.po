@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-05-10 09:00-0400\n"
+"PO-Revision-Date: 2016-05-10 10:55-0400\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7\n"
 "Last-Translator: \n"
@@ -55,15 +55,15 @@ msgstr ""
 
 #: admin/class-theme-my-login-admin.php:179
 msgid "Username only"
-msgstr ""
+msgstr "Usuario"
 
 #: admin/class-theme-my-login-admin.php:182
 msgid "E-mail only"
-msgstr ""
+msgstr "E-mail"
 
 #: admin/class-theme-my-login-admin.php:185 templates/login-form.php:16
 msgid "Username or E-mail"
-msgstr ""
+msgstr "Usuario o E-mail"
 
 #: admin/class-theme-my-login-admin.php:189
 msgid "Allow users to login using their username and/or e-mail address."
@@ -99,19 +99,23 @@ msgid ""
 "registrations. To change or disable registration go to your <a href=\"%s"
 "\">Options page</a>."
 msgstr ""
+"¡Saludos Administrador! Se permiten los registros en el sitio. Si deseas "
+"deshabitar esta opción entra a la <a href=\"%s\">Página de Opciones</a>."
 
 #: includes/class-theme-my-login-ms-signup.php:116
 msgid "Registration has been disabled."
-msgstr ""
+msgstr "Los registros están desactivados."
 
 #: includes/class-theme-my-login-ms-signup.php:118
 msgid ""
 "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
 msgstr ""
+"Debes <a href=\"%s\">entrar con tu usuario</a> primero y luego podrás crear "
+"un nuevo sitio."
 
 #: includes/class-theme-my-login-ms-signup.php:142
 msgid "%s is your new username"
-msgstr ""
+msgstr "%s es tu nuevo usuario"
 
 #: includes/class-theme-my-login-ms-signup.php:143
 msgid ""
@@ -255,74 +259,80 @@ msgstr ""
 
 #: includes/class-theme-my-login-ms-signup.php:422
 msgid "An error occurred during the activation"
-msgstr ""
+msgstr "Ha ocurrido un error durante la activación"
 
 #: includes/class-theme-my-login-ms-signup.php:434
 #: templates/ms-signup-user-form.php:14
 msgid "Username:"
-msgstr ""
+msgstr "Usuario:"
 
 #: includes/class-theme-my-login-ms-signup.php:435
 #: modules/custom-passwords/custom-passwords.php:95
 msgid "Password:"
-msgstr ""
+msgstr "Contraseña:"
 
 #: includes/class-theme-my-login-ms-signup.php:439
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
 "href=\"%2$s\">Login</a>"
 msgstr ""
+"Tu cuenta ha sido activada. <a href=\"%1$s\">Mirar el sitio</a> o <a href="
+"\"%2$s\">Entrar</a>"
 
 #: includes/class-theme-my-login-ms-signup.php:441
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">Login</a> or go back to the "
 "<a href=\"%2$s\">homepage</a>."
 msgstr ""
+"Tu cuenta ha sido activada. <a href=\"%1$s\">Entrar</a> o ir a la <a href="
+"\"%2$s\">página principal</a>."
 
 #: includes/class-theme-my-login-template.php:150
 msgid "Welcome, %s"
-msgstr ""
+msgstr "Bienvenido, %s"
 
 #: includes/class-theme-my-login-template.php:157
 #: includes/class-theme-my-login-widget.php:111
 #: includes/class-theme-my-login.php:119 templates/register-form.php:28
 msgid "Register"
-msgstr ""
+msgstr "Registrarse"
 
 #: includes/class-theme-my-login-template.php:163
 #: includes/class-theme-my-login-widget.php:112
 #: includes/class-theme-my-login.php:120
 msgid "Lost Password"
-msgstr ""
+msgstr "Recuperar contraseña"
 
 #: includes/class-theme-my-login-template.php:167
 #: includes/class-theme-my-login.php:117 templates/login-form.php:37
 msgid "Log In"
-msgstr ""
+msgstr "Entrar"
 
 #: includes/class-theme-my-login-template.php:348
 #: modules/custom-user-links/custom-user-links.php:61
 msgid "Dashboard"
-msgstr ""
+msgstr "Escritorio"
 
 #: includes/class-theme-my-login-template.php:351
 #: modules/custom-user-links/custom-user-links.php:65
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: includes/class-theme-my-login-template.php:400
 msgid "Register For This Site"
-msgstr ""
+msgstr "Registrarse a este sitio"
 
 #: includes/class-theme-my-login-template.php:403
 msgid ""
 "Please enter your username or email address. You will receive a link to "
 "create a new password via email."
 msgstr ""
+"Por favor introduce tu usuario o dirección e-mail. Recibirás un link al e-"
+"mail para poder crear una nueva contraseña"
 
 #: includes/class-theme-my-login-template.php:406
 msgid "Enter your new password below."
-msgstr ""
+msgstr "Introduce tu nueva contraseña"
 
 #: includes/class-theme-my-login-widget.php:24
 msgid "A login form for your blog."
@@ -375,13 +385,13 @@ msgstr ""
 
 #: includes/class-theme-my-login.php:118
 msgid "Log Out"
-msgstr ""
+msgstr "Salir"
 
 #: includes/class-theme-my-login.php:121
 #: modules/custom-email/admin/custom-email-admin.php:102
 #: templates/resetpass-form.php:31
 msgid "Reset Password"
-msgstr ""
+msgstr "Reiniciar la contraseña"
 
 #: includes/class-theme-my-login.php:349
 msgid ""
@@ -395,27 +405,27 @@ msgstr ""
 
 #: includes/class-theme-my-login.php:390
 msgid "The passwords do not match."
-msgstr ""
+msgstr "La confirmación de contraseña no coincide."
 
 #: includes/class-theme-my-login.php:492
 msgid "You are now logged out."
-msgstr ""
+msgstr "Te has desconectado."
 
 #: includes/class-theme-my-login.php:494
 msgid "User registration is currently not allowed."
-msgstr ""
+msgstr "Los registros no están permitidos por los momentos."
 
 #: includes/class-theme-my-login.php:496
 msgid "Check your e-mail for the confirmation link."
-msgstr ""
+msgstr "Revisa tu e-mail y activa tu cuenta con el link de confirmación."
 
 #: includes/class-theme-my-login.php:498
 msgid "Your password has been reset."
-msgstr ""
+msgstr "Tu contraseña ha sido reincida."
 
 #: includes/class-theme-my-login.php:500
 msgid "Registration complete. Please check your e-mail."
-msgstr ""
+msgstr "El registro ha sido completado. Por favor revisa tu e-mail."
 
 #: includes/class-theme-my-login.php:502
 msgid "Your session has expired. Please log-in again."
@@ -429,28 +439,29 @@ msgstr ""
 
 #: includes/class-theme-my-login.php:506
 msgid "Please log in to continue."
-msgstr ""
+msgstr "Por favor entra tu usuario para continuar."
 
 #: includes/class-theme-my-login.php:1133
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Introduce tu usuario o e-mail."
 
 #: includes/class-theme-my-login.php:1137
 msgid ""
 "<strong>ERROR</strong>: There is no user registered with that email address."
-msgstr ""
+msgstr "<strong>ERROR</strong>: No hay nadie registrado con ese e-mail."
 
 #: includes/class-theme-my-login.php:1149
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Usuario o E-mail inválido."
 
 #: includes/class-theme-my-login.php:1163
 msgid "Password reset is not allowed for this user"
-msgstr ""
+msgstr "No puedes reiniciar la contraseña para este usuario"
 
 #: includes/class-theme-my-login.php:1180
 msgid "Someone requested that the password be reset for the following account:"
 msgstr ""
+"Se ha solicitado reiniciar la contraseña para la siguiente cuenta de usuario:"
 
 #: includes/class-theme-my-login.php:1182
 #: modules/custom-email/custom-email.php:841
@@ -458,69 +469,77 @@ msgstr ""
 #: modules/user-moderation/admin/user-moderation-admin.php:382
 #: modules/user-moderation/user-moderation.php:460
 msgid "Username: %s"
-msgstr ""
+msgstr "Usuario: %s"
 
 #: includes/class-theme-my-login.php:1183
 msgid "If this was a mistake, just ignore this email and nothing will happen."
-msgstr ""
+msgstr "Si esto fue un error, simplemente ignora este mensaje y nada pasará."
 
 #: includes/class-theme-my-login.php:1184
 msgid "To reset your password, visit the following address:"
-msgstr ""
+msgstr "Para reiniciar tu contraseña, visita la siguiente dirección:"
 
 #: includes/class-theme-my-login.php:1195
 msgid "[%s] Password Reset"
-msgstr ""
+msgstr "[%s] Reinicio de Contraseña"
 
 #: includes/class-theme-my-login.php:1201
 #: modules/user-moderation/admin/user-moderation-admin.php:252
 #: modules/user-moderation/admin/user-moderation-admin.php:394
 #: modules/user-moderation/admin/user-moderation-admin.php:436
 msgid "The e-mail could not be sent."
-msgstr ""
+msgstr "El e-mail no pudo ser enviado."
 
 #: includes/class-theme-my-login.php:1201
 #: modules/user-moderation/admin/user-moderation-admin.php:252
 #: modules/user-moderation/admin/user-moderation-admin.php:394
 #: modules/user-moderation/admin/user-moderation-admin.php:436
 msgid "Possible reason: your host may have disabled the mail() function..."
-msgstr ""
+msgstr "Tal vez sea un error en la función mail()…"
 
 #: includes/class-theme-my-login.php:1245
 msgid "<strong>ERROR</strong>: Please enter a username."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Introduce tu usuario."
 
 #: includes/class-theme-my-login.php:1247
 msgid ""
 "<strong>ERROR</strong>: This username is invalid because it uses illegal "
 "characters. Please enter a valid username."
 msgstr ""
+"<strong>ERROR</strong>: Este nombre de usuario no puede ser usado porque "
+"tiene caracteres especiales. Introduce otro usuario."
 
 #: includes/class-theme-my-login.php:1250
 msgid ""
 "<strong>ERROR</strong>: This username is already registered, please choose "
 "another one."
 msgstr ""
+"<strong>ERROR</strong>: Este usuario ya está registrado, por favor escoge "
+"otro nombre."
 
 #: includes/class-theme-my-login.php:1255
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Por favor escribe tu dirección de e-mail."
 
 #: includes/class-theme-my-login.php:1257
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
-msgstr ""
+msgstr "<strong>ERROR</strong>: La dirección de e-mail no está correcta."
 
 #: includes/class-theme-my-login.php:1260
 msgid ""
 "<strong>ERROR</strong>: This email is already registered, please choose "
 "another one."
 msgstr ""
+"<strong>ERROR</strong>: Este e-mail ya fue usado, por favor registraste con "
+"otro e-mail o recupera tu acceso."
 
 #: includes/class-theme-my-login.php:1273
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
 msgstr ""
+"<strong>ERROR</strong>: No pudimos registrarte, por favor contactos al "
+"correo."
 
 #: modules/custom-email/admin/custom-email-admin.php:92
 #: modules/custom-email/admin/custom-email-admin.php:150
@@ -535,7 +554,7 @@ msgstr ""
 
 #: modules/custom-email/admin/custom-email-admin.php:99
 msgid "New User"
-msgstr ""
+msgstr "Nuevo Usuario"
 
 #: modules/custom-email/admin/custom-email-admin.php:100
 msgid "New User Admin"
@@ -543,7 +562,7 @@ msgstr ""
 
 #: modules/custom-email/admin/custom-email-admin.php:101
 msgid "Retrieve Password"
-msgstr ""
+msgstr "Recuperar Contraseña"
 
 #: modules/custom-email/admin/custom-email-admin.php:106
 msgid "User Activation"
@@ -781,39 +800,42 @@ msgstr ""
 
 #: modules/custom-passwords/custom-passwords.php:100
 msgid "(Must be at least 6 characters.)"
-msgstr ""
+msgstr "(Debe ser por lo menos de 6 caracteres)"
 
 #: modules/custom-passwords/custom-passwords.php:102
 msgid "Confirm Password:"
-msgstr ""
+msgstr "Confirmar Contraseña:"
 
 #: modules/custom-passwords/custom-passwords.php:104
 msgid "Confirm that you've typed your password correctly."
-msgstr ""
+msgstr "Confirma que has colocado la contraseña correctamente."
 
 #: modules/custom-passwords/custom-passwords.php:141
 msgid "<strong>ERROR</strong>: Please enter your password twice."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Por favor introduce la contraseña dos veces."
 
 #: modules/custom-passwords/custom-passwords.php:145
 msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
 msgstr ""
+"<strong>ERROR</strong>: La contraseña no puede tener el caracter \"\\\"."
 
 #: modules/custom-passwords/custom-passwords.php:149
 msgid ""
 "<strong>ERROR</strong>: Please enter the same password in the two password "
 "fields."
 msgstr ""
+"<strong>ERROR</strong>: Por favor introduce la misma contraseña en los dos "
+"campos."
 
 #: modules/custom-passwords/custom-passwords.php:153
 msgid ""
 "<strong>ERROR</strong>: Your password must be at least 6 characters in "
 "length."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Tu contraseña debe tener al menos 6 dígitos.."
 
 #: modules/custom-passwords/custom-passwords.php:282
 msgid "Registration complete. You may now log in."
-msgstr ""
+msgstr "El registro fue completado, puedes entrar al sitio."
 
 #: modules/custom-redirection/admin/custom-redirection-admin.php:86
 #: modules/custom-redirection/admin/custom-redirection-admin.php:134
@@ -826,12 +848,12 @@ msgstr ""
 
 #: modules/custom-redirection/admin/custom-redirection-admin.php:167
 msgid "Log in"
-msgstr ""
+msgstr "Entrar"
 
 #: modules/custom-redirection/admin/custom-redirection-admin.php:169
 #: modules/custom-redirection/admin/custom-redirection-admin.php:183
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: modules/custom-redirection/admin/custom-redirection-admin.php:170
 msgid ""
@@ -841,7 +863,7 @@ msgstr ""
 #: modules/custom-redirection/admin/custom-redirection-admin.php:172
 #: modules/custom-redirection/admin/custom-redirection-admin.php:186
 msgid "Referer"
-msgstr ""
+msgstr "Referido"
 
 #: modules/custom-redirection/admin/custom-redirection-admin.php:173
 msgid ""
@@ -1324,6 +1346,8 @@ msgid ""
 "Must be at least 4 characters, letters and numbers only. It cannot be "
 "changed, so choose carefully!"
 msgstr ""
+"Debe ser de por lo menos 4 dígitos, letras y números nada mas. No puede ser "
+"cambiado luego así que revisa muy bien."
 
 #: templates/ms-signup-another-blog-form.php:59
 #: templates/ms-signup-blog-form.php:40
@@ -1364,7 +1388,7 @@ msgstr "Registra tu cuenta en un par de segundos"
 
 #: templates/ms-signup-user-form.php:20
 msgid "(Must be at least 4 characters, letters and numbers only.)"
-msgstr ""
+msgstr "(Debe tener 4 dígitos, letras y números solamente)"
 
 #: templates/ms-signup-user-form.php:22
 msgid "Email&nbsp;Address:"
@@ -1375,6 +1399,7 @@ msgid ""
 "We send your registration email to this address. (Double-check your email "
 "address before continuing.)"
 msgstr ""
+"(Te enviaremos un link para que puedas activar tu cuenta a este e-mail)"
 
 #: templates/ms-signup-user-form.php:42
 msgid "Gimme a site!"
@@ -1386,7 +1411,7 @@ msgstr ""
 
 #: templates/ms-signup-user-form.php:49
 msgid "Next"
-msgstr ""
+msgstr "Continuar"
 
 #: templates/profile-form.php:17
 msgid "Personal Options"
@@ -1402,35 +1427,35 @@ msgstr ""
 
 #: templates/profile-form.php:32
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: templates/profile-form.php:37
 msgid "Usernames cannot be changed."
-msgstr ""
+msgstr "El usuario no puede ser cambiado."
 
 #: templates/profile-form.php:41
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: templates/profile-form.php:46
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: templates/profile-form.php:51
 msgid "Nickname"
-msgstr ""
+msgstr "Nickname"
 
 #: templates/profile-form.php:51 templates/profile-form.php:96
 msgid "(required)"
-msgstr ""
+msgstr "(requerido)"
 
 #: templates/profile-form.php:56
 msgid "Display name publicly as"
-msgstr ""
+msgstr "Mostrar mi nombre como"
 
 #: templates/profile-form.php:92
 msgid "Contact Info"
-msgstr ""
+msgstr "Información de Contacto"
 
 #: templates/profile-form.php:104
 msgid ""
@@ -1439,65 +1464,65 @@ msgstr ""
 
 #: templates/profile-form.php:113
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: templates/profile-form.php:129
 msgid "About Yourself"
-msgstr ""
+msgstr "Acerca de ti"
 
 #: templates/profile-form.php:133
 msgid "Biographical Info"
-msgstr ""
+msgstr "Información Personal"
 
 #: templates/profile-form.php:135
 msgid ""
 "Share a little biographical information to fill out your profile. This may "
 "be shown publicly."
-msgstr ""
+msgstr "Escribe algo acerca de ti. Será mostrado a los otros usuarios."
 
 #: templates/profile-form.php:144
 msgid "Account Management"
-msgstr ""
+msgstr "Manejo de Cuenta"
 
 #: templates/profile-form.php:147
 msgid "New Password"
-msgstr ""
+msgstr "Nueva Contraseña"
 
 #: templates/profile-form.php:150
 msgid "Generate Password"
-msgstr ""
+msgstr "Generar una contraseña"
 
 #: templates/profile-form.php:156
 msgid "Hide password"
-msgstr ""
+msgstr "Esconder contraseña"
 
 #: templates/profile-form.php:158
 msgid "Hide"
-msgstr ""
+msgstr "Esconder"
 
 #: templates/profile-form.php:160
 msgid "Cancel password change"
-msgstr ""
+msgstr "Cancelar el cambio de contraseña"
 
 #: templates/profile-form.php:161
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: templates/profile-form.php:167
 msgid "Repeat New Password"
-msgstr ""
+msgstr "Repite la contraseña"
 
 #: templates/profile-form.php:170
 msgid "Type your new password again."
-msgstr ""
+msgstr "Introduce tu contraseña nuevamente."
 
 #: templates/profile-form.php:178
 msgid "Confirm use of weak password"
-msgstr ""
+msgstr "Confirma que quieres usar esta contraseña débil. "
 
 #: templates/profile-form.php:192
 msgid "Update Profile"
-msgstr ""
+msgstr "Actualizar Perfil"
 
 #: templates/register-form.php:25
 msgid "Registration confirmation will be e-mailed to you."
@@ -1505,7 +1530,7 @@ msgstr "Hemos enviado un email de confirmación."
 
 #: templates/resetpass-form.php:12
 msgid "New password"
-msgstr ""
+msgstr "Nueva contraseña"
 
 #: templates/resetpass-form.php:17
 msgid "Strength indicator"
@@ -1513,7 +1538,7 @@ msgstr ""
 
 #: templates/resetpass-form.php:22
 msgid "Confirm new password"
-msgstr ""
+msgstr "Confirma tu nueva contraseña"
 
 #. Plugin URI of the plugin/theme
 msgid "http://www.jfarthing.com/extend/wordpress-plugins/theme-my-login/"
