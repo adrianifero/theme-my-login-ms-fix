@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-05-10 11:07-0400\n"
+"PO-Revision-Date: 2016-05-12 09:50-0400\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7\n"
 "Last-Translator: \n"
@@ -122,20 +122,27 @@ msgid ""
 "But, before you can start using your new username, <strong>you must activate "
 "it</strong>."
 msgstr ""
+"Para poder entrar, debes ir a tu e-mail y hacer click en el <strong>link de "
+"activación</strong>."
 
 #: includes/class-theme-my-login-ms-signup.php:144
 msgid "Check your inbox at <strong>%1$s</strong> and click the link given."
 msgstr ""
+"Revisa tu email <strong>%1$s</strong> y verás un e-mail de TuCuatro con un "
+"link de activación. Usa ese link para activar tu cuenta y luego podrás "
+"entrar con tu usuario y contraseña."
 
 #: includes/class-theme-my-login-ms-signup.php:145
 msgid ""
 "If you do not activate your username within two days, you will have to sign "
 "up again."
 msgstr ""
+"Si no activas tu usuario en dos días, entonces deberás hacer el registro "
+"nuevamente."
 
 #: includes/class-theme-my-login-ms-signup.php:149
 msgid "User registration has been disabled."
-msgstr ""
+msgstr "El registro está deshabitado."
 
 #: includes/class-theme-my-login-ms-signup.php:181
 msgid "Congratulations! Your new site, %s, is almost ready."
@@ -159,31 +166,35 @@ msgstr ""
 
 #: includes/class-theme-my-login-ms-signup.php:186
 msgid "Still waiting for your email?"
-msgstr ""
+msgstr "¿Todavía en espera de que llegue el email?"
 
 #: includes/class-theme-my-login-ms-signup.php:188
 msgid ""
 "If you haven&#8217;t received your email yet, there are a number of things "
 "you can do:"
-msgstr ""
+msgstr "Si no has recibido el email, puedes hacer lo siguiente:"
 
 #: includes/class-theme-my-login-ms-signup.php:190
 msgid ""
 "Wait a little longer. Sometimes delivery of email can be delayed by "
 "processes outside of our control."
 msgstr ""
+"Espera un poco más, a veces los envíos de e-mail tardan hasta media hora en "
+"llegar."
 
 #: includes/class-theme-my-login-ms-signup.php:191
 msgid ""
 "Check the junk or spam folder of your email client. Sometime emails wind up "
 "there by mistake."
-msgstr ""
+msgstr "Revisa tu correo basura, a veces el e-mail cae directamente allí."
 
 #: includes/class-theme-my-login-ms-signup.php:192
 msgid ""
 "Have you entered your email correctly?  You have entered %s, if it&#8217;s "
 "incorrect, you will not receive your email."
 msgstr ""
+"Revisa que la dirección de correo que escribiste esté correcta:  %s. Si no "
+"es correcta, entonces tendrás que registrarte de nuevo."
 
 #: includes/class-theme-my-login-ms-signup.php:198
 msgid "Site registration has been disabled."
@@ -235,7 +246,7 @@ msgstr ""
 #: includes/class-theme-my-login-ms-signup.php:411
 #: includes/class-theme-my-login-ms-signup.php:431
 msgid "Your account is now active!"
-msgstr ""
+msgstr "¡Tu cuenta ha sido activado!"
 
 #: includes/class-theme-my-login-ms-signup.php:415
 msgid ""
@@ -398,10 +409,14 @@ msgid ""
 "Your password reset link appears to be invalid. Please request a new link "
 "below."
 msgstr ""
+"Este link parece ser inválido, por favor repite el proceso de recuperar "
+"contraseña"
 
 #: includes/class-theme-my-login.php:351
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr ""
+"Este link ya expiró, por favor vuelve a iniciar el proceso de recuperar tu "
+"contraseña."
 
 #: includes/class-theme-my-login.php:390
 msgid "The passwords do not match."
@@ -429,7 +444,7 @@ msgstr "El registro ha sido completado. Por favor revisa tu e-mail."
 
 #: includes/class-theme-my-login.php:502
 msgid "Your session has expired. Please log-in again."
-msgstr ""
+msgstr "Tu sesión ha expirado. Entra nuevamente con tu usuario y contraseña."
 
 #: includes/class-theme-my-login.php:504
 msgid ""
